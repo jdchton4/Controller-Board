@@ -53,3 +53,24 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Build artifacts & binaries
+build/
+.pio/
+bin/
+*.bin
+*.elf
+*.map
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Hardware & CAD backups
+*-backups/
+*.kicad_prl
+*.bck
